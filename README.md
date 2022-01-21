@@ -30,9 +30,46 @@ search.google("Python", max_results = 30, lang = "en")
 You could use your own proxy:
 ```python3
 import search
-search.google("Python", proxy = {
+search.google("Python", proxies = {
     "https": "https://example.com"
   })
+```
+# Output format
+Output variable type: dict
+Example `search.google("YouTube")`:
+```python3
+{
+  0: {
+    "title": "YouTube",
+    "url": "https://www.youtube.com/"
+  },
+  1: {
+    "title": "YouTube - Apps on Google Play",
+    "url": "https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en_US&gl=US"
+  },
+  2: {
+    "title": "YouTube - Home | Facebook",
+    "url": "https://www.facebook.com/youtube/"
+  },
+  3: {
+    "title": "YouTube - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/YouTube"
+  }
+}
+```
+How to access search results:
+```python3
+import search
+results = search.google("YouTube")
+#At the first result, get the title of the result.
+print(results[0]["title"])
+#At the second result, get the title of the result.
+print(results[1]["title"])
+```
+Output:
+```bash
+YouTube
+YouTube - Apps on Google Play
 ```
 # Known issues
 I could only find max results and languages in Google search engine, still trying to figure it out on other search engines.
