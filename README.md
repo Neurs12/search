@@ -77,7 +77,7 @@ https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en_U
 - Aol
 You could pull a request for other search engines.
 # License
-Copyright © 2022 Github: Neurs1
+Copyright © 2022 Neurs1 (Github)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
