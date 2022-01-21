@@ -63,13 +63,13 @@ import search
 results = search.google("YouTube")
 #At the first result, get the title of the result.
 print(results[0]["title"])
-#At the second result, get the title of the result.
-print(results[1]["title"])
+#At the second result, get the url of the result.
+print(results[1]["url"])
 ```
 Output:
 ```bash
 YouTube
-YouTube - Apps on Google Play
+https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en_US&gl=US
 ```
 # Known issues
 I could only find max results and languages in Google search engine, still trying to figure it out on other search engines.
