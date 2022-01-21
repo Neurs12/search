@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-  name="search",
+  name="search-python",
   version="1.0",
   author="Neurs",
   description="A fast, efficiency python package for searching and getting search results with many different search engines.",
@@ -10,7 +10,7 @@ A fast, efficiency python package for searching and getting search results with 
 # Installation
 To install the package, run the following command:
 ```bash
-python3 -m pip install search
+python3 -m pip install search-python
 ```
 Or install from Github:
 ```bash
