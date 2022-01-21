@@ -1,5 +1,5 @@
 # search
-A Python package for searching and getting results with many different search engines.
+A Python package for searching and getting search results with many different search engines.
 # Installation
 To install the package, run the following command:
 ```bash
