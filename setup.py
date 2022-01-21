@@ -4,7 +4,7 @@ setup(
   name="search",
   version="1.0",
   author="Neurs",
-  description="A Python package for searching and getting results with many different search engines.",
+  description="A fast, efficiency python package for searching and getting search results with many different search engines.",
   long_description="""# search
 A fast, efficiency python package for searching and getting search results with many different search engines.
 # Installation
