@@ -10,7 +10,7 @@ Or install from Github:
 python3 -m pip install git+https://github.com/Neurs1/search.git
 ```
 # Features
-This package support many different search engines like Google, Yahoo, Bing,... (Full list).
+This package support many different search engines.
 Provide the best speed with BS4 using lxml.
 Fix bugs, adapt new features and page design from fearch engines.
 Output in dict type, easier to interact with.
@@ -70,5 +70,10 @@ Output:
 YouTube
 https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en_US&gl=US
 ```
+# Supported search engines
+- Google
+- Bing
+- Yahoo
+- Aol
 # Known issues
 I could only find max results and languages in Google search engine, still trying to figure it out on other search engines.
