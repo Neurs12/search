@@ -35,7 +35,6 @@ search.google("Python", proxies = {
   })
 ```
 # Output format
-Output variable type: dict
 Example `search.google("YouTube")`:
 ```python3
 {
