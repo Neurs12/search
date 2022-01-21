@@ -82,7 +82,7 @@ https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en_U
 - Bing
 - Yahoo
 - Aol
-You could pull a request for other search engines.
+- You could pull a request for other search engines.
 # Known issues
 I could only find max results and languages in Google search engine, still trying to figure it out on other search engines.
 """,
