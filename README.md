@@ -12,7 +12,7 @@ python3 -m pip install git+https://github.com/Neurs1/search.git
 # Features
 This package support many different search engines.
 Provide the best speed with BS4 using lxml.
-Fix bugs, adapt new features and page design from fearch engines.
+Fix bugs, adapt new features and page design from search engines.
 Output in dict type, easier to interact with.
 # Usage
 Search using multiple search engines!
